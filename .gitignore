@@ -3,6 +3,10 @@
 data/raw/*
 !data/raw/.gitkeep
 
+# Tabla maestra: pesa ~104 MB y GitHub no acepta archivos de más de 100 MB.
+# Se regenera ejecutando notebooks/pandas_labs.ipynb (ver README).
+data/processed/instacart_master.parquet
+
 # Python / Jupyter
 __pycache__/
 .ipynb_checkpoints/
